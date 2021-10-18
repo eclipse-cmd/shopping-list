@@ -1,0 +1,42 @@
+.outline-0 {
+  outline: none !important;
+}
+.box-shadow-0 {
+  box-shadow: none !important;
+}
+.remove-btn {
+  margin-right: 0.5rem;
+}
+.enter {
+  opacity: 0.1;
+}
+.enter-active {
+  opacity: 1;
+  transition: opacity 400ms ease-in;
+}
+.exit {
+  opacity: 1;
+}
+.exit-active {
+  opacity: 0.1;
+  transition: opacity 200ms ease-in;
+}
+.loader {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.loader img {
+  width: 30px;
+  margin-bottom: 10px;
+}
+.dis-view-exit {
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
